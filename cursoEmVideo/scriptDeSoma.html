@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -22,8 +22,13 @@
     <h1>Olá, Mundo!</h1>
     <p>Bem vindo ao JavaScript</p>
     <script>
-        var nome =  window.prompt("Como você se chama?")    //Janela para inserir um dado.
-        window.alert("É um grande prazer em te conhecer, " + (nome) + "!" )
+        var n1 = Number(window.prompt("Digite um número: ")) 
+        var n2 = Number(window.prompt("Digite um número: ")) 
+/*      Para forçar o número ser inteiro Number.parseInt() ou apenas parseInt()
+        Para forçar o número ser inteiro Number.parseFloat() ou apenas parseFloat()
+        Para Transformar em String VARIAVEL.toString() ou apenas String()           */
+        var soma = n1 + n2
+        window.alert(`A Soma é ${soma}`)
     </script>
 </body>
 
