@@ -13,6 +13,10 @@ Resto ( % )
 Multiplicação ( * )
 Potenciação ( ** )  */
 
+var n1 = 2
+var n2 = 12
+var n3 = 3
+
 soma = n1 + n2
 console.log(`A soma de ${n1} e ${n2} é igual a ${soma}`)
 

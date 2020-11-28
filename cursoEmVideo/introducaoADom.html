@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background: rgb(68, 125, 199);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1> Iniciando estudos DOM</h1>
+    <p> Aqui vai o resultado</p>
+    <p> Aprendendo a usar <strong>DOM</strong> em javaScript.</p>
+    <div id='msg1'> Clique em mim</div>
+    <div name='msg2'> Testando</div>
+
+    <script>
+    /*
+        Selecioanr objetos por marca - getElementsByTagName()
+        Selecioanr objetos por ID - getElementById()) 
+        Selecioanr objetos por Nome - getElementsByName()
+        Selecioanr objetos por Classe - getElementsByClassName
+        Selecioanr objetos por Seletor - querySelector() ou querySelectorAll()  */
+        var p1 = window.document.getElementsByTagName('p')[0]
+        p1.style.color = 'black'    
+        window.document.write(p1.innerText)
+
+        var d1 = window.document.getElementById('msg1')
+        window.document.write(d1.innerText)
+
+        var d2 = window.document.getElementsByName('msg2')
+        window.document.write(d2.innerText)
+        
+        var d3 = window.document.querySelector('div#msg1')
+        d3.style.color = 'green'
+    </script>
+ 
+    
+</body>
+</html>
