@@ -17,9 +17,25 @@
     }
 </style>
 <body>
-    <div id="area">
+<!--<div id="area"  onclick="clicar()" onmouseenter="entrar()">  
+    Interaja.... 
+    </div>
+-->
+    <div id="area" > 
         Interaja.... 
     </div>
 
+    <script>
+       var a = window.document.getElementById("area")
+       a.addEventListener("click" , clicar)
+       a.addEventListener("mouseenter", entrar)
+        function clicar(){
+            a.innerText = "Clicou!"
+            a.style.background = "red"
+        }
+        function entrar(){
+            a.innerText = "Entrou!"
+        }
+    </script>
 </body>
 </html>
