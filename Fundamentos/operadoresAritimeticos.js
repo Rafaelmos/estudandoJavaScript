@@ -1,4 +1,5 @@
-/* Operadores em ordem de resolução
+/* Operadores 
+em ordem de resolução
 1º Aritmeticos
 2º Relacionais
 3º Lógicos  */
