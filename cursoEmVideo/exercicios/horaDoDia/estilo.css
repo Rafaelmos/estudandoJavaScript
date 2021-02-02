@@ -16,6 +16,11 @@ section {
     box-shadow: 3px 3px 10px black;
 }
 
+div {
+    text-align: center;
+    padding: 8px;
+}
+
 footer {
     color: white;
     text-align: center;
