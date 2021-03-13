@@ -1,0 +1,7 @@
+Folder Referring to the Curso Em Video JavaScript course by Guanabará sponsored by Google, 
+containing some exercises practiced by him.
+
+The course has a workload of 40 hours and is about Basic JavaScript programming 
+up to some Doom concepts, functions, variables and others.
+
+Link of course: https://www.cursoemvideo.com/course/javascript/
