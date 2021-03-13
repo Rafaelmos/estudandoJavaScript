@@ -1,0 +1,3 @@
+Exercises on the "pratique" page of the Olimpíada Brasileira de Informática website.
+Access in: https://olimpiada.ic.unicamp.br/pratique/
+
