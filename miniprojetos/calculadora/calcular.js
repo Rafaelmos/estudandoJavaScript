@@ -1,0 +1,16 @@
+let adicao = require("./adicao")
+let subtracao = require("./subtracao")
+let multiplicao = require("./multiplicacao")
+let divisao = require("./divisao")
+let potencia = require("./potencia")
+let raiz = require("./raiz")
+let fatorial = require("./fatorial")
+
+
+console.log(adicao(4,2))
+console.log(subtracao(5,2))
+console.log(multiplicao(3,2))
+console.log(divisao(8,2))
+console.log(potencia(4,2))
+console.log(raiz(25,2))
+console.log(fatorial(4))
