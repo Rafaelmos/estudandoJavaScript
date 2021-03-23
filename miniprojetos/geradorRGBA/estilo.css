@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-color: rgb(red, green, rgb(255, 255, 255))
+}
+div {
+    border-radius: 50px;
+    padding: 50px;
+    height: 50px;
+}
+input{
+    height: 20px;
+    width: 50rem;
+}
+span {
+    font-size: larger;
+    font-style: oblique;
+}
