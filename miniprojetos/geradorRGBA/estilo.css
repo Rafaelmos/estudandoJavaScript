@@ -11,7 +11,36 @@ input{
     height: 20px;
     width: 50rem;
 }
+
 span {
     font-size: larger;
     font-style: oblique;
 }
+
+span#hexa {
+    font-size: 30px;
+    font-style: normal;
+}
+
+span#r { 
+    color: red;
+ }
+ span#g { 
+    color: green;
+ }
+ span#b { 
+    color: blue;
+ }
+
+ span#txtRed{
+    color: red;
+ }
+
+ span#txtGreen{
+    color: green;
+ }
+ 
+ span#txtBlue{
+    color: blue;
+ }
+ 
