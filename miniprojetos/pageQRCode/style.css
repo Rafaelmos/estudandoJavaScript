@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(213, 225, 239);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#contanier {
+    max-width: 360px;
+    margin: 0;
+}
+
+.whitescreen {
+    background-color: white;
+    padding: 18px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.img1 {
+    border-radius: 60px;
+    max-width: 100%;
+    max-height: auto;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: gray;
+}
