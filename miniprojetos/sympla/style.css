@@ -1,0 +1,154 @@
+header.cabecalho {
+
+    /*cabeçalho seguei o scroll*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+
+  .navbar input {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #0072c6;
+    border-radius: 17px;
+  }
+  
+  .navbar button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #0072c6;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .navbar li img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .especial {
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 30px;
+  }
+
+  .especial select{
+    font-size: 20px;
+    border: none;
+  }
+
+  .perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .perfil a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0072c6;
+  }
+  
+  .cadastro {
+    background-color: #0072c6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .banner {
+    text-align: center;
+    position: relative;
+  }
+
+  .banner img{
+    border-radius: 30px;
+  }
+
+  .banner h3 {
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    right: 500px;
+  }
+
+  .banner button {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 35px;
+    right: 600px;
+    border: 1px white;
+}
+
+#aqui  {
+    max-width: 500px;
+
+}
+#aqui h2 {
+    margin: 50px;
+    right: -250px;
+    position: relative;
+}
+
+ /*ALINHAMENTOS DOS IMGS RENDODAS*/
+
+.container  {
+    text-align: center;
+}
+
+.container div {
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+}
+
+.container img {
+    min-width: 180px;
+    max-width: 180px;
+    border-radius: 250px;
+    padding: 10px;
+}
+
+    
+.container p {
+    font-weight: bold;
+  }
+  
+  
+
+@media (max-width: 1200px) { 
+   
+ /*CSS AQUI PARA DEIXAR RESPONSIVO*/
+
+}
+  
+  
+
