@@ -14,66 +14,66 @@ header.cabecalho {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .navbar li {
-    margin-right: 20px;
-  }
+}
 
-  .navbar input {
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar input {
     width: 300px;
     height: 35px;
     border: 1px solid #0072c6;
     border-radius: 17px;
-  }
-  
-  .navbar button{
+}
+
+.navbar button {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #0072c6;
     padding: 10px 20px;
     border-radius: 15px;
     cursor: pointer;
-  }
+}
 
-  .navbar li img {
+.navbar li img {
     width: 100px;
     height: auto;
-  }
-  
-  .especial {
+}
+
+.especial {
     font-size: large;
     padding: 10px;
     border-radius: 5px;
     border: none;
     width: 200px;
     height: 30px;
-  }
+}
 
-  .especial select{
+.especial select {
     font-size: 20px;
     border: none;
-  }
+}
 
-  .perfil {
+.perfil {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .perfil a {
+}
+
+.perfil a {
     margin-right: 20px;
     text-decoration: none;
     color: #0072c6;
-  }
-  
-  .cadastro {
+}
+
+.cadastro {
     background-color: #0072c6;
     color: white;
     padding: 10px 20px;
@@ -81,25 +81,25 @@ header.cabecalho {
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
-  }
-  
-  .banner {
+}
+
+.banner {
     text-align: center;
     position: relative;
-  }
+}
 
-  .banner img{
+.banner img {
     border-radius: 30px;
-  }
+}
 
-  .banner h3 {
+.banner h3 {
     color: white;
     position: absolute;
     bottom: 70px;
     right: 500px;
-  }
+}
 
-  .banner button {
+.banner button {
     width: 100px;
     height: 50px;
     position: absolute;
@@ -108,19 +108,20 @@ header.cabecalho {
     border: 1px white;
 }
 
-#aqui  {
+#aqui {
     max-width: 500px;
 
 }
+
 #aqui h2 {
     margin: 50px;
     right: -250px;
     position: relative;
 }
 
- /*ALINHAMENTOS DOS IMGS RENDODAS*/
+/*ALINHAMENTOS DOS IMGS RENDODAS*/
 
-.container  {
+.container {
     text-align: center;
 }
 
@@ -137,18 +138,77 @@ header.cabecalho {
     padding: 10px;
 }
 
-    
+
 .container p {
     font-weight: bold;
-  }
-  
-  
+}
 
-@media (max-width: 1200px) { 
-   
- /*CSS AQUI PARA DEIXAR RESPONSIVO*/
+
+.slider {
+    min-width: 500px;
+    min-height: 200px;
+    border: 1px solid black;
+    background-color: rgba(202,202,202, 5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides{
+    
+    display: flex;
+    overflow: hidden;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 700px;
 
 }
-  
-  
 
+.slide img{    
+    border-radius: 20px;
+    min-width: 650px;
+    min-height: 450px;
+    max-width: 650px;
+    max-height: 450px;
+
+}
+
+.navigation-bar{
+    color: blue;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.navigation-bar label{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navigation-bar label:not(:last-child) {
+    margin-right: 10px;
+}
+
+.navigation-bar label:hover {
+    background-color: #abb3b8;
+    transition: 0.4s;
+}
+
+@media (max-width: 1200px) {
+
+    /*CSS AQUI PARA DEIXAR RESPONSIVO*/
+
+}
